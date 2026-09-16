@@ -11,6 +11,10 @@ const Overall = makeOptionComponent('CLOTHES', 'Overall')
 const ShirtCrewNeck = makeOptionComponent('CLOTHES', 'ShirtCrewNeck')
 const ShirtScoopNeck = makeOptionComponent('CLOTHES', 'ShirtScoopNeck')
 const ShirtVNeck = makeOptionComponent('CLOTHES', 'ShirtVNeck')
+const Turtleneck = makeOptionComponent('CLOTHES', 'Turtleneck')
+const Tanktop = makeOptionComponent('CLOTHES', 'Tanktop')
+const RacingSuit = makeOptionComponent('CLOTHES', 'RacingSuit')
+const FootballShirt = makeOptionComponent('CLOTHES', 'FootballShirt')
 
 export interface Props {
   uid: string

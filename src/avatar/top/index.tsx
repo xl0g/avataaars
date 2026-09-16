@@ -38,6 +38,8 @@ const WinterHat1 = makeOptionComponent('TOP', 'WinterHat1')
 const WinterHat2 = makeOptionComponent('TOP', 'WinterHat2')
 const WinterHat3 = makeOptionComponent('TOP', 'WinterHat3')
 const WinterHat4 = makeOptionComponent('TOP', 'WinterHat4')
+const HatBeanie = makeOptionComponent('TOP', 'HatBeanie')
+const Bandana = makeOptionComponent('TOP', 'Bandana')
 
 export interface Props {
   uid: string
