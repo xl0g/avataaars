@@ -125,6 +125,359 @@ export const SVG_DICTIONARY: Record<string, Record<string, SvgNode>> = {
     }
   },
   "CLOTHES": {
+    "Turtleneck": {
+      "type": "g",
+      "props": {
+        "id": "{uid}-Clothing/Turtleneck",
+        "transform": "translate(0.000000, 170.000000)"
+      },
+      "children": [
+        {
+          "type": "defs",
+          "props": {},
+          "children": [
+            {
+              "type": "path",
+              "props": {
+                "d": "M165.960472,29.2949161 C202.936473,32.3249982 232,63.2942856 232,101.051724 L232,110 L32,110 L32,101.051724 C32,62.9525631 61.591985,31.7649812 99.0454063,29.2195264 C99.0152598,29.5931145 99,29.9692272 99,30.3476251 C99,42.2107177 113.998461,51.8276544 132.5,51.8276544 C151.001539,51.8276544 166,42.2107177 166,30.3476251 C166,29.9946691 165.986723,29.6437014 165.960472,29.2949161 Z M99.2,14 C99.2,6.3 114,0 132.5,0 C151,0 165.8,6.3 165.8,14 L165.8,33 C165.8,42.7 151,49 132.5,49 C114,49 99.2,42.7 99.2,33 L99.2,14 Z",
+                "id": "uid",
+                "-Clothing-path1": true
+              },
+              "children": []
+            }
+          ]
+        },
+        {
+          "type": "mask",
+          "props": {
+            "id": "clothingColorMask",
+            "fill": "white"
+          },
+          "children": [
+            {
+              "type": "use",
+              "props": {
+                "xlinkHref": "#{uid}-Clothing-path1",
+                "fillRule": "nonzero"
+              },
+              "children": []
+            }
+          ]
+        },
+        {
+          "type": "use",
+          "props": {
+            "xlinkHref": "#{uid}-Clothing-path1",
+            "id": "{uid}-Clothes",
+            "fill": "#E6E6E6",
+            "fillRule": "nonzero"
+          },
+          "children": []
+        },
+        {
+          "type": "ClotheColor",
+          "props": {
+            "uid": "uid"
+          },
+          "children": []
+        },
+        {
+          "type": "path",
+          "props": {
+            "d": "M99.2,20 C99.2,28 114,34 132.5,34 C151,34 165.8,28 165.8,20 L165.8,33 C165.8,42.7 151,49 132.5,49 C114,49 99.2,42.7 99.2,33 L99.2,20 Z",
+            "fill": "#000000",
+            "fillOpacity": "0.16",
+            "fillRule": "nonzero",
+            "mask": "url(#{uid}-Clothing-Color-Mask)"
+          },
+          "children": []
+        }
+      ]
+    },
+    "Tanktop": {
+      "type": "g",
+      "props": {
+        "id": "{uid}-Clothing/Tanktop",
+        "transform": "translate(0.000000, 170.000000)"
+      },
+      "children": [
+        {
+          "type": "defs",
+          "props": {},
+          "children": [
+            {
+              "type": "path",
+              "props": {
+                "d": "M159.848,38.295 C190.168,41.325 214,72.294 214,110.052 L214,119 L50,119 L50,110.052 C50,71.953 74.265,40.765 104.977,38.22 C104.953,38.593 104.94,38.969 104.94,39.348 C104.94,51.211 117.239,60.828 132.41,60.828 C147.581,60.828 159.88,51.211 159.88,39.348 C159.88,38.995 159.869,38.644 159.848,38.295 Z M107,30 C107,26 110,23 114,23 C118,23 121,26 121,30 C121,44 113,56 99,64 L88,52 C100,46 107,39 107,30 Z M144,30 C144,26 147,23 151,23 C155,23 158,26 158,30 C158,39 165,46 177,52 L166,64 C152,56 144,44 144,30 Z",
+                "id": "uid",
+                "-Clothing-path1": true
+              },
+              "children": []
+            }
+          ]
+        },
+        {
+          "type": "mask",
+          "props": {
+            "id": "clothingColorMask",
+            "fill": "white"
+          },
+          "children": [
+            {
+              "type": "use",
+              "props": {
+                "xlinkHref": "#{uid}-Clothing-path1",
+                "fillRule": "nonzero"
+              },
+              "children": []
+            }
+          ]
+        },
+        {
+          "type": "use",
+          "props": {
+            "xlinkHref": "#{uid}-Clothing-path1",
+            "id": "{uid}-Clothes",
+            "fill": "#E6E6E6",
+            "fillRule": "nonzero"
+          },
+          "children": []
+        },
+        {
+          "type": "ClotheColor",
+          "props": {
+            "uid": "uid"
+          },
+          "children": []
+        },
+        {
+          "type": "path",
+          "props": {
+            "d": "M60,110 C60,88 70,68 86,56 L86,110 L60,110 Z",
+            "fill": "#000000",
+            "fillOpacity": "0.08",
+            "fillRule": "nonzero",
+            "mask": "url(#{uid}-Clothing-Color-Mask)"
+          },
+          "children": []
+        }
+      ]
+    },
+    "RacingSuit": {
+      "type": "g",
+      "props": {
+        "id": "{uid}-Clothing/RacingSuit",
+        "transform": "translate(0.000000, 170.000000)"
+      },
+      "children": [
+        {
+          "type": "defs",
+          "props": {},
+          "children": [
+            {
+              "type": "path",
+              "props": {
+                "d": "M165.960472,29.2949161 C202.936473,32.3249982 232,63.2942856 232,101.051724 L232,110 L32,110 L32,101.051724 C32,62.9525631 61.591985,31.7649812 99.0454063,29.2195264 C99.0152598,29.5931145 99,29.9692272 99,30.3476251 C99,42.2107177 113.998461,51.8276544 132.5,51.8276544 C151.001539,51.8276544 166,42.2107177 166,30.3476251 C166,29.9946691 165.986723,29.6437014 165.960472,29.2949161 Z M99.2,14 C99.2,6.3 114,0 132.5,0 C151,0 165.8,6.3 165.8,14 L165.8,26 C165.8,42.7 151,49 132.5,49 C114,49 99.2,42.7 99.2,26 L99.2,14 Z",
+                "id": "uid",
+                "-Clothing-path1": true
+              },
+              "children": []
+            }
+          ]
+        },
+        {
+          "type": "mask",
+          "props": {
+            "id": "clothingColorMask",
+            "fill": "white"
+          },
+          "children": [
+            {
+              "type": "use",
+              "props": {
+                "xlinkHref": "#{uid}-Clothing-path1",
+                "fillRule": "nonzero"
+              },
+              "children": []
+            }
+          ]
+        },
+        {
+          "type": "use",
+          "props": {
+            "xlinkHref": "#{uid}-Clothing-path1",
+            "id": "{uid}-Clothes",
+            "fill": "#E6E6E6",
+            "fillRule": "nonzero"
+          },
+          "children": []
+        },
+        {
+          "type": "ClotheColor",
+          "props": {
+            "uid": "uid"
+          },
+          "children": []
+        },
+        {
+          "type": "path",
+          "props": {
+            "d": "M128.5,30 L136.5,30 L136.5,110 L128.5,110 L128.5,30 Z",
+            "fill": "#000000",
+            "fillOpacity": "0.35",
+            "fillRule": "nonzero",
+            "mask": "url(#{uid}-Clothing-Color-Mask)"
+          },
+          "children": []
+        },
+        {
+          "type": "path",
+          "props": {
+            "d": "M96,64 C104,56 114,50 125,47 L125,60 C117,63 110,67 104,73 L96,64 Z",
+            "fill": "#FFFFFF",
+            "fillOpacity": "0.82",
+            "fillRule": "nonzero",
+            "mask": "url(#{uid}-Clothing-Color-Mask)"
+          },
+          "children": []
+        },
+        {
+          "type": "path",
+          "props": {
+            "d": "M169,64 C161,56 151,50 140,47 L140,60 C148,63 155,67 161,73 L169,64 Z",
+            "fill": "#FFFFFF",
+            "fillOpacity": "0.82",
+            "fillRule": "nonzero",
+            "mask": "url(#{uid}-Clothing-Color-Mask)"
+          },
+          "children": []
+        },
+        {
+          "type": "path",
+          "props": {
+            "d": "M32,101 C32,97 32.3,93 33,89 L232,89 C232.7,93 233,97 233,101 L233,110 L32,110 L32,101 Z",
+            "fill": "#000000",
+            "fillOpacity": "0.12",
+            "fillRule": "nonzero",
+            "mask": "url(#{uid}-Clothing-Color-Mask)"
+          },
+          "children": []
+        }
+      ]
+    },
+    "FootballShirt": {
+      "type": "g",
+      "props": {
+        "id": "{uid}-Clothing/FootballShirt",
+        "transform": "translate(0.000000, 170.000000)"
+      },
+      "children": [
+        {
+          "type": "defs",
+          "props": {},
+          "children": [
+            {
+              "type": "path",
+              "props": {
+                "d": "M165.960472,29.2949161 C202.936473,32.3249982 232,63.2942856 232,101.051724 L232,110 L32,110 L32,101.051724 C32,62.9525631 61.591985,31.7649812 99.0454063,29.2195264 C99.0152598,29.5931145 99,29.9692272 99,30.3476251 C99,42.2107177 113.998461,51.8276544 132.5,51.8276544 C151.001539,51.8276544 166,42.2107177 166,30.3476251 C166,29.9946691 165.986723,29.6437014 165.960472,29.2949161 Z",
+                "id": "uid",
+                "-Clothing-path1": true
+              },
+              "children": []
+            }
+          ]
+        },
+        {
+          "type": "mask",
+          "props": {
+            "id": "clothingColorMask",
+            "fill": "white"
+          },
+          "children": [
+            {
+              "type": "use",
+              "props": {
+                "xlinkHref": "#{uid}-Clothing-path1",
+                "fillRule": "nonzero"
+              },
+              "children": []
+            }
+          ]
+        },
+        {
+          "type": "use",
+          "props": {
+            "xlinkHref": "#{uid}-Clothing-path1",
+            "id": "{uid}-Clothes",
+            "fill": "#E6E6E6",
+            "fillRule": "nonzero"
+          },
+          "children": []
+        },
+        {
+          "type": "ClotheColor",
+          "props": {
+            "uid": "uid"
+          },
+          "children": []
+        },
+        {
+          "type": "path",
+          "props": {
+            "d": "M113,73 L124,73 L124,110 L113,110 L113,73 Z",
+            "fill": "#000000",
+            "fillOpacity": "0.14",
+            "fillRule": "nonzero",
+            "mask": "url(#{uid}-Clothing-Color-Mask)"
+          },
+          "children": []
+        },
+        {
+          "type": "path",
+          "props": {
+            "d": "M141,73 L152,73 L152,110 L141,110 L141,110 L141,73 Z",
+            "fill": "#000000",
+            "fillOpacity": "0.14",
+            "fillRule": "nonzero",
+            "mask": "url(#{uid}-Clothing-Color-Mask)"
+          },
+          "children": []
+        },
+        {
+          "type": "path",
+          "props": {
+            "d": "M32,110 C32,84 45,61 65,47 C55,63 50,84 50,110 L32,110 Z",
+            "fill": "#000000",
+            "fillOpacity": "0.16",
+            "fillRule": "nonzero",
+            "mask": "url(#{uid}-Clothing-Color-Mask)"
+          },
+          "children": []
+        },
+        {
+          "type": "path",
+          "props": {
+            "d": "M232,110 C232,84 219,61 199,47 C209,63 214,84 214,110 L232,110 Z",
+            "fill": "#000000",
+            "fillOpacity": "0.16",
+            "fillRule": "nonzero",
+            "mask": "url(#{uid}-Clothing-Color-Mask)"
+          },
+          "children": []
+        },
+        {
+          "type": "path",
+          "props": {
+            "d": "M113,29.6 C116,40 123.5,47.5 132.5,47.5 C141.5,47.5 149,40 152,29.6 L158,31 C154.5,44 144.5,53 132.5,53 C120.5,53 110.5,44 107,31 L113,29.6 Z",
+            "fill": "#000000",
+            "fillOpacity": "0.2",
+            "fillRule": "nonzero",
+            "mask": "url(#{uid}-Clothing-Color-Mask)"
+          },
+          "children": []
+        }
+      ]
+    },
     "BlazerShirt": {
       "type": "g",
       "props": {
@@ -4632,6 +4985,278 @@ export const SVG_DICTIONARY: Record<string, Record<string, SvgNode>> = {
     }
   },
   "TOP": {
+    "HatBeanie": {
+      "type": "g",
+      "props": {
+        "id": "{uid}-Top",
+        "strokeWidth": "1",
+        "fillRule": "evenodd"
+      },
+      "children": [
+        {
+          "type": "defs",
+          "props": {},
+          "children": [
+            {
+              "type": "rect",
+              "props": {
+                "id": "uid",
+                "-top-path1": true,
+                "x": "0",
+                "y": "0",
+                "width": "264",
+                "height": "280"
+              },
+              "children": []
+            },
+            {
+              "type": "path",
+              "props": {
+                "d": "M70,66 C70,31.8 97.8,4 132,4 C166.2,4 194,31.8 194,66 L194,74 L70,74 L70,66 Z M66,66 L198,66 C201.9,66 205,69.1 205,73 L205,84 C205,87.9 201.9,91 198,91 L66,91 C62.1,91 59,87.9 59,84 L59,73 C59,69.1 62.1,66 66,66 Z",
+                "id": "uid",
+                "-top-path2": true
+              },
+              "children": []
+            }
+          ]
+        },
+        {
+          "type": "mask",
+          "props": {
+            "id": "uid",
+            "-top-mask1": true,
+            "fill": "white"
+          },
+          "children": [
+            {
+              "type": "use",
+              "props": {
+                "xlinkHref": "#{uid}-top-path1"
+              },
+              "children": []
+            }
+          ]
+        },
+        {
+          "type": "g",
+          "props": {
+            "id": "{uid}-Top/Accesories/HatBeanie",
+            "mask": "url(#{uid}-top-mask1)"
+          },
+          "children": [
+            {
+              "type": "g",
+              "props": {
+                "transform": "translate(-1.000000, 0.000000)"
+              },
+              "children": [
+                {
+                  "type": "mask",
+                  "props": {
+                    "id": "hatColorMask",
+                    "fill": "white"
+                  },
+                  "children": [
+                    {
+                      "type": "use",
+                      "props": {
+                        "xlinkHref": "#{uid}-top-path2",
+                        "fillRule": "nonzero"
+                      },
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "type": "use",
+                  "props": {
+                    "xlinkHref": "#{uid}-top-path2",
+                    "id": "{uid}-Hat-Mask",
+                    "stroke": "none",
+                    "fill": "#3B6BAD",
+                    "fillRule": "nonzero"
+                  },
+                  "children": []
+                },
+                {
+                  "type": "HatColor",
+                  "props": {
+                    "uid": "uid",
+                    "defaultColor": "Heather"
+                  },
+                  "children": []
+                },
+                {
+                  "type": "path",
+                  "props": {
+                    "d": "M66,66 L198,66 C201.9,66 205,69.1 205,73 L205,84 C205,87.9 201.9,91 198,91 L66,91 C62.1,91 59,87.9 59,84 L59,73 C59,69.1 62.1,66 66,66 Z",
+                    "stroke": "none",
+                    "fillOpacity": "0.22",
+                    "fill": "#000000",
+                    "fillRule": "nonzero",
+                    "mask": "url(#{uid}-Hat-Color-Mask)"
+                  },
+                  "children": []
+                },
+                {
+                  "type": "path",
+                  "props": {
+                    "d": "M132,4 C137,4 141.9,4.6 146.6,5.7 C124.4,12.6 108.3,33.4 108.3,58 L108.3,66 L70,66 C70,31.8 97.8,4 132,4 Z",
+                    "stroke": "none",
+                    "fillOpacity": "0.1",
+                    "fill": "#FFFFFF",
+                    "fillRule": "nonzero",
+                    "mask": "url(#{uid}-Hat-Color-Mask)"
+                  },
+                  "children": []
+                },
+                {
+                  "type": "Children",
+                  "props": {},
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "Bandana": {
+      "type": "g",
+      "props": {
+        "id": "{uid}-Top",
+        "strokeWidth": "1",
+        "fillRule": "evenodd"
+      },
+      "children": [
+        {
+          "type": "defs",
+          "props": {},
+          "children": [
+            {
+              "type": "rect",
+              "props": {
+                "id": "uid",
+                "-top-path1": true,
+                "x": "0",
+                "y": "0",
+                "width": "264",
+                "height": "280"
+              },
+              "children": []
+            },
+            {
+              "type": "path",
+              "props": {
+                "d": "M72,58 C72,32.6 98.9,12 132,12 C165.1,12 192,32.6 192,58 L192,70 C192,73.9 188.9,77 185,77 L79,77 C75.1,77 72,73.9 72,70 L72,58 Z M186,54 C194,52 201,55 203,61 C205,67 201,73 194,76 L186,78 L186,54 Z M199,66 C206,64 214,66 220,72 C213,74 205,73 199,70 L199,66 Z M200,72 C207,74 213,79 216,86 C209,85 202,81 198,76 L200,72 Z",
+                "id": "uid",
+                "-top-path2": true
+              },
+              "children": []
+            }
+          ]
+        },
+        {
+          "type": "mask",
+          "props": {
+            "id": "uid",
+            "-top-mask1": true,
+            "fill": "white"
+          },
+          "children": [
+            {
+              "type": "use",
+              "props": {
+                "xlinkHref": "#{uid}-top-path1"
+              },
+              "children": []
+            }
+          ]
+        },
+        {
+          "type": "g",
+          "props": {
+            "id": "{uid}-Top/Accesories/Bandana",
+            "mask": "url(#{uid}-top-mask1)"
+          },
+          "children": [
+            {
+              "type": "g",
+              "props": {
+                "transform": "translate(-1.000000, 0.000000)"
+              },
+              "children": [
+                {
+                  "type": "mask",
+                  "props": {
+                    "id": "hatColorMask",
+                    "fill": "white"
+                  },
+                  "children": [
+                    {
+                      "type": "use",
+                      "props": {
+                        "xlinkHref": "#{uid}-top-path2",
+                        "fillRule": "nonzero"
+                      },
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "type": "use",
+                  "props": {
+                    "xlinkHref": "#{uid}-top-path2",
+                    "id": "{uid}-Hat-Mask",
+                    "stroke": "none",
+                    "fill": "#3B6BAD",
+                    "fillRule": "nonzero"
+                  },
+                  "children": []
+                },
+                {
+                  "type": "HatColor",
+                  "props": {
+                    "uid": "uid",
+                    "defaultColor": "Heather"
+                  },
+                  "children": []
+                },
+                {
+                  "type": "path",
+                  "props": {
+                    "d": "M72,64 L192,64 L192,70 C192,73.9 188.9,77 185,77 L79,77 C75.1,77 72,73.9 72,70 L72,64 Z",
+                    "stroke": "none",
+                    "fillOpacity": "0.2",
+                    "fill": "#000000",
+                    "fillRule": "nonzero",
+                    "mask": "url(#{uid}-Hat-Color-Mask)"
+                  },
+                  "children": []
+                },
+                {
+                  "type": "path",
+                  "props": {
+                    "d": "M104,14.6 C112.5,13 121.9,12 132,12 C136,12 139.9,12.2 143.7,12.6 C124,20 109.4,35 104,53 L104,14.6 Z",
+                    "stroke": "none",
+                    "fillOpacity": "0.12",
+                    "fill": "#FFFFFF",
+                    "fillRule": "nonzero",
+                    "mask": "url(#{uid}-Hat-Color-Mask)"
+                  },
+                  "children": []
+                },
+                {
+                  "type": "Children",
+                  "props": {},
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
     "Eyepatch": {
       "type": "g",
       "props": {
